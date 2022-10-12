@@ -3,16 +3,16 @@ import UserNav from '../../Components/Nav/UserNav'
 
 function History() {
     return (
-        <div className='container-fluid'>
-        <div className="row">
-            <div className='col-md-2'>
+        <div className='container mt-5'>
+            <div className="row">
+                <div className='col-md-2'>
                     <UserNav />
-            </div>
-            <div className='col'>
+                </div>
+                <div className='col'>
                     user history Page
+                </div>
             </div>
-        </div>
-            
+
         </div>
     )
 }

@@ -68,11 +68,11 @@ function SingleProduct({ product }) {
           id="product-info-container"
           actions={[
             <>
-              <Link to="/">
-                <HeartOutlined className="text-info" />
-                <br />
-                Add to Wishlist
-              </Link>
+
+              <HeartOutlined className="text-info" />
+              <br />
+              Add to Wishlist
+
             </>,
           ]}
         >

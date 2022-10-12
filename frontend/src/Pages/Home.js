@@ -29,7 +29,7 @@ function Home() {
       }}
     >
       <Banner />
-      <br/>
+      <br />
 
       <div
         className="h1 font-weight-bold text-center"
@@ -37,14 +37,14 @@ function Home() {
           "background-image":
             "linear-gradient(to top, #9AFEFF 0%, 100%)",
           width: "100%",
-      
-              }}
+
+        }}
       >
         <Jumbotron />
-        <br/>
+        <br />
       </div>
       <NewArrivals />
-      <br />
+      <br />MostSold
       <MostSold />
       <br />
       <h4
